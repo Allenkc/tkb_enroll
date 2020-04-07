@@ -11,9 +11,9 @@ getBranch();
 document.getElementById("date_selector").value = "2019-08-25";
 //                                                 ^^^^^ 把你要的預約時間貼到這
 getSessionAndTime();
-// 景美TE ; 台北TT
+// 依樣畫葫蘆怎麼查課程代碼就怎麼查教室代碼(景美TE ; 台北TT)，這裡以台北為例
 document.getElementById("branch_selector").value = "TT";
-// 依樣畫葫蘆怎麼查課程代碼就怎麼查教室代碼，這裡以台北為例
+//                                                  ^^ 把你要的教室代碼貼到這
 getSessionAndTime();
 // 選時段，[0]表示第一場次，[1]表示第二場次，依此類推
 document.getElementsByName("session_time")[0].checked = true;
